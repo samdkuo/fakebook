@@ -1,0 +1,91 @@
+:root {
+  --darkpurple: rgb(87, 87, 228);
+  --purple: rgb(185, 185, 250);
+}
+.App {
+  padding: 2em 0;
+  width: 80vw;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App h1{
+  color: var(--darkpurple);
+}
+
+.App button {
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: lavender;
+  border-radius: 5px;
+  padding: 1em;
+  height: fit-content;
+  margin-bottom: 1em;
+}
+
+.form textarea {
+  width: calc(100% - 2em);
+  height: 100px;
+  border: solid lightgray 1px;
+  border-radius: 5px;
+  padding: 1em;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form button {
+  margin-top: 1em;
+  padding: 1em 1.5em;
+  background-color: rgb(87, 87, 228);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  font-weight: 700;
+}
+
+.card {
+  border: solid var(--purple) 1px;
+  border-radius: 5px;
+  padding: 1em;
+  margin: 1em 0;
+  white-space: pre-wrap;
+  display: flex;
+  flex-direction: column;
+}
+
+.card p {
+  margin: 0;
+  padding: 0;
+}
+
+.meta {
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+.date {
+  font-style: italic;
+  color: var(--darkpurple);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.card button {
+  align-self: flex-end;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--purple);
+  margin: 0;
+  margin-left: 1em;
+  border: none;
+  background: none;
+  outline: none;
+}
+
